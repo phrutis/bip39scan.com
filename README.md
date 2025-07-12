@@ -1,4 +1,6 @@
 # bip39scan v2.0.1 POOL - $500
+To purchase, write to telegram @phrutis or buy from a bot in a group t.me/cuda8
+
 Online Statistic https://bip39scan.xyz<br>
 You can check how the client works (for test)<br>
 ### Linux:
