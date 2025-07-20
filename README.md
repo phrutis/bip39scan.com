@@ -15,7 +15,6 @@ https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/precomp.bin
 https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/libcrypto-1_1-x64.dll (Needed if the library is not installed)<br>
 ```xx.exe -u Nick_Name```<br>
 
-<img width="1280" height="825" alt="Image" src="https://github.com/user-attachments/assets/ff82f719-fbe4-4c1f-95ed-5cf8b37873a7" /><br>
 Pool for collective search of vulnerable passwords instead of mnemonic phrases.<br>
 The pool has a page with general client statistics. (see screenshot above)<br>
 The top clients are formed by the total number of passwords passed. Offline users become grey.<br>
