@@ -1,4 +1,4 @@
-# bip39scan v2.0.1 POOL - $500
+# bip39scan v2.0.1 POOL - $1000
 To purchase, write to telegram @phrutis or buy from a bot in a group t.me/cuda8
 
 <img width="1308" height="604" alt="Image" src="https://github.com/user-attachments/assets/774fea06-09ad-4213-921b-14c055978a20" />
@@ -79,7 +79,7 @@ If the server has a 7-16 GB address base, add --blom 2048M to the startup line<b
 For the alleth.bin database of 29 GB, add --blom 4096M<br>
 ex. ```./xx -u Alex3322 --bloom 4096M```
 <hr>
-What is sold for $500 ?<br>
+What is sold for $1000 ?<br>
 Files for the server + instructions for installation and configuration.<br>
 Source code bip39scan v2 (client) + instructions on how to build for ubuntu, win.<br>
 For any questions, contact @phrutis<br>
