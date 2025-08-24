@@ -1,5 +1,4 @@
 # bip39scan v2.0.1 POOL
-To purchase, write to telegram @phrutis or buy from a bot in a group t.me/cuda8
 
 <img width="1308" height="604" alt="Image" src="https://github.com/user-attachments/assets/774fea06-09ad-4213-921b-14c055978a20" />
 
