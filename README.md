@@ -1,8 +1,8 @@
 # bip39scan v2.0.1 POOL
 
 
-Online Statistic https://bip39scan.xyz<br>
-You can check how the client works (for test)<br>
+Online Statistic https://bip39scan.com<br>
+
 ### Linux:
 wget https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/xx<br>
 wget https://github.com/phrutis/bip39scan_v2_POOL/releases/download/2.0.1/precomp.bin<br>
