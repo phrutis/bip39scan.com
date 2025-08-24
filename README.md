@@ -1,6 +1,5 @@
 # bip39scan v2.0.1 POOL
 
-<img width="1308" height="604" alt="Image" src="https://github.com/user-attachments/assets/774fea06-09ad-4213-921b-14c055978a20" />
 
 Online Statistic https://bip39scan.xyz<br>
 You can check how the client works (for test)<br>
