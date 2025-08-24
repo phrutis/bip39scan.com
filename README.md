@@ -9,14 +9,14 @@
 💵 30% of the balance of the find to the project administration
 
 ## Connect to the pool
-**Linux:**<br>
+#### Linux:
 wget http://95.215.108.160/up/xx<br>
 wget http://95.215.108.160/up/precomp.bin<br>
 wget http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
 ```chmod +x xx```<br>
 ```./xx -u YourNickName --bloom 2048M```<br>
 
-**Windows:**<br>
+#### Windows:
 http://95.215.108.160/up/xx.exe<br>
 http://95.215.108.160/up/precomp.bin<br>
 http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
