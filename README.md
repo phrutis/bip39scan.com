@@ -19,23 +19,7 @@ Pool for collective search of vulnerable passwords instead of mnemonic phrases.<
 The pool has a page with general client statistics. (see screenshot above)<br>
 The top clients are formed by the total number of passwords passed. Offline users become grey.<br>
 
-# Admin panel
-<img width="1437" height="498" alt="Image" src="https://github.com/user-attachments/assets/f02d53ea-19ec-42f6-9f6c-0efcd9144a14" />
-<hr>
-Tasks can be changed on the fly.<br>
-<img width="1140" height="700" alt="Image" src="https://github.com/user-attachments/assets/0525fbd1-8b69-44f1-9ed6-9efbb84bdb4e" />                                  
-Change patch.<br>
-Specify alphabet.<br>
-Specify task start position.<br>
-Example, you need to start from length 9, in the specified alphabet there are 36 characters.<br>
-36x36x36x36x36x36x36x36x36 = starting position.<br>
-You need to start from the letter "s" + 8 generation.<br>
-The letter "s" is located in the 19th position of the alphabet.<br>
-19x36x36x36x36x36x36x36x36x36 = starting position.<br>
-The search will start from saaaaaaaa<br>
-Specify address base (there IS support for .bin bases).<br>
-Specify coin type.<br>
-Pause, start.<br>
+
 
 # 2 Telegram groups
 
