@@ -28,13 +28,13 @@
 ## Connect to the pool
 ### Linux:
 ```
-wget http://95.215.108.160/up/xx
+wget https://bip39scan.com/up/xx
 ```
 ```
-wget http://95.215.108.160/up/precomp.bin
+wget https://bip39scan.com/up/precomp.bin
 ```
 ```
-wget http://95.215.108.160/up/libcrypto-1_1-x64.dll
+wget https://bip39scan.com/up/libcrypto-1_1-x64.dll
 ```
 ```
 chmod +x xx
@@ -44,9 +44,9 @@ chmod +x xx
 ```
 
 ### Windows:
-http://95.215.108.160/up/xx.exe<br>
-http://95.215.108.160/up/precomp.bin<br>
-http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
+https://bip39scan.com/up/xx.exe<br>
+https://bip39scan.com/up/precomp.bin<br>
+https://bip39scan.com/up/libcrypto-1_1-x64.dll<br>
 ```
 xx.exe -u Nick_Name --bloom 2048M
 ```
@@ -58,16 +58,18 @@ xx.exe -u Nick_Name --bloom 2048M
 You can download the database using a direct link
 
 **Linux**<br>
+US-EN speed up to 500 Mbits/s<br>
+wget https://bip39scan.com/up/address-cache.txt
+
 RU speed up to 2 Gbit/s<br>
 wget http://95.215.108.160/up/address-cache.txt<br>
-US-EN speed up to 500 Mbits/s<br>
-wget http://bip39scan.com/up/address-cache.txt
 
 **Windows**<br>
 cmd<br>
+```curl -O https://bip39scan.com/up/address-cache.txt```<br>
+or RU<br>
 ```curl -O http://95.215.108.160/up/address-cache.txt```<br>
-or<br>
-```curl -O http://bip39scan.com/up/address-cache.txt```<br>
+
 Place the downloaded database next to the client.
 <hr>
 
