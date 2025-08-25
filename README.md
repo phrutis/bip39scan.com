@@ -24,27 +24,43 @@ http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
 ```xx.exe -u Nick_Name --bloom 2048M```<br>
 
 
-All clients perform their part (chunk) of the overall task.<br>
+## FAQ
+**What does this pool do?**
+
+Collectively brute forces passwords from old wallets created on bip32.org and others.<br>
+A given alphabet is used for brute forcing, each client. <br>
+Each card searches for its own piece of the main task.<hr>
+
+**Will this pool work on my pc?**
+
 Only CUDA cards support GTX, RTX, CMP<br>
 Need RAM - 16 GB<br>
 Brute speed:<br>
 RTX 4090 = 60k/s<br>
-RTX 5090 = 90k/s<br>
+RTX 5090 = 90k/s<hr>
 
-The client automatically downloads the address database. <br>
+**Why does the program require 16 GB of RAM?**
+
+The client automatically downloads the address database 11 GB (binary format). <br>
+The database is loaded into RAM and eats up 12 GB of memory, another 4 GB is needed for the system.<br>
 If the database on the server has changed, it automatically updates it. <br>
-After downloading, the client checks the checksum of the database, which excludes incompletely downloaded addresses.
-The client displays only the speed.<br>
-If the client finds an address, the window displays the found address.<br>
-<img width="977" height="510" alt="Image" src="https://github.com/user-attachments/assets/29720e79-e401-4d2c-82e1-f134dc52858d" />
+After downloading, the client checks the checksum of the database, which excludes incompletely downloaded addresses.<hr>
+
+**I want to search anonymously, how can I do this?**
 
 For anonymity, use your BTC address instead of a nickname.<br>
-Use your address, 70% will be paid to it
+Use your address, 70% will be paid to it<hr>
 
-You can use a nickname in the pool.<br>
+**How to search by nickname?**
+
+You can use a nickname in the pool. Use xx -u Yournick --bloom 2048M<br>
 You need to write @phrutis your nickname and your BTC address.<br>
-I will add your address to the private list.
+I will add your address to the private list.<hr>
 
-How do I know what I found?<br>
-The found address(es) will appear in your client window<br>
-The bot will send a message to the telegram group https://t.me/bip39scan with information about the find.
+**How do I know what I found?**
+
+The bot will send a message to the telegram group https://t.me/bip39scan with information about the find.<br>
+If the client finds an address, the window displays the found address.<br>
+<img width="977" height="510" alt="Image" src="https://github.com/user-attachments/assets/29720e79-e401-4d2c-82e1-f134dc52858d" /><hr>
+
+
