@@ -51,6 +51,12 @@ After downloading, the client checks the checksum of the database, which exclude
 For anonymity, use your BTC address instead of a nickname.<br>
 Use your address, 70% will be paid to it<hr>
 
+**What path do clients search for?**
+
+The client uses a multipath. The search is performed on 7 pathes at once. <br>
+That's why the search speed is 30% lower than the nominal one.<br>
+This is 7 times faster than going through the same thing 7 times!<hr>
+
 **How to search by nickname?**
 
 You can use a nickname in the pool. Use xx -u Yournick --bloom 2048M<br>
