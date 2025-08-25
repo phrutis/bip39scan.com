@@ -27,8 +27,8 @@ http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
 All clients perform their part (chunk) of the overall task.<br>
 Only CUDA cards support GTX, RTX, CMP<br>
 Brute speed:<br>
-RTX 4090 = 520k/s<br>
-RTX 5090 = 800k/s<br>
+RTX 4090 = 60k/s<br>
+RTX 5090 = 90k/s<br>
 
 
 The client automatically downloads the address database. <br>
