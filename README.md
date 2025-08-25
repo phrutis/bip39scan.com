@@ -9,6 +9,22 @@
 💰 70% of the balance of the find to the one who found the password.<br>
 💵 30% of the balance of the find to the project administration
 
+> [!IMPORTANT]
+> In the [bip39scan program mode 10](https://github.com/phrutis/bip39scan), many old coins were found.<br>
+> The brute speed is very slow, so we decided to make a pool.
+> Analysis of the finds showed that almost all the coins found were from 2014.<br>
+> In 2014, 1 BTC cost $300-400.<br>
+> Many users generated addresses, after the withdrawal, cents remained.<br>
+> These cents are now worth a lot!<br>
+> For example, abandoned $0.35 is now worth $150.<br>
+> There are abandoned addresses with several dollars (now these are thousands of dollars)<br>
+> Abandoned (forgotten) with small amounts (now these are tens of thousands dollars).<br>
+> There is a high probability of finding forgotten coins $300-400 - this is now 1 BTC.<br>
+
+> [!NOTE]
+> Do not wait for others to find, do not miss your chance, join the pool now.
+
+
 ## Connect to the pool
 #### Linux:
 wget http://95.215.108.160/up/xx<br>
@@ -36,8 +52,8 @@ Each card searches for its own piece of the main task.<hr>
 Only CUDA cards support GTX, RTX, CMP<br>
 Need RAM - 16 GB<br>
 Brute speed:<br>
-RTX 4090 = 60k/s<br>
-RTX 5090 = 90k/s<hr>
+RTX 4090 = 50k/s<br>
+RTX 5090 = 80k/s<hr>
 
 **Why does the program require 16 GB of RAM?**
 
@@ -62,6 +78,11 @@ This is 7 times faster than going through the same thing 7 times!<hr>
 You can use a nickname in the pool. Use xx -u Yournick --bloom 2048M<br>
 You need to write @phrutis your nickname and your BTC address.<br>
 I will add your address to the private list.<hr>
+
+**I'm a miner and I have little RAM in my rig.**
+
+Try increasing the swap file.<br>
+Ask in the chat, they will tell you.<hr>
 
 **How do I know what I found?**
 
