@@ -10,10 +10,10 @@
 💵 30% of the balance of the find to the project administration
 
 > [!IMPORTANT]
-> In the [bip39scan program mode 10](https://github.com/phrutis/bip39scan), many old coins were found.<br>
-> The brute speed is very slow, so we decided to make a pool.
+> In the [bip39scan](https://github.com/phrutis/bip39scan) program mode 10, many old coins were found.<br>
+> The brute speed is very slow, so we decided to make a pool.<br>
 > Analysis of the finds showed that almost all the coins found were from 2014.<br>
-> In 2014, 1 BTC cost $300-400.<br>
+> **In 2014, 1 BTC cost $300-400.** <br>
 > Many users generated addresses, after the withdrawal, cents remained.<br>
 > These cents are now worth a lot!<br>
 > For example, abandoned $0.35 is now worth $150.<br>
