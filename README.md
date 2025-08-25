@@ -25,6 +25,10 @@ http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
 
 ## Question and Answer
 
+PC requirements.<br>
+CUDA card - Nvidia Geforce GTX, RTX, CMP...<br>
+RAM - 16 GB
+
 All clients perform their part (chunk) of the overall task.<br>
 Only CUDA cards support GTX, RTX, CMP<br>
 Brute speed:<br>
