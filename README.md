@@ -69,7 +69,7 @@ run in cmd<br>
 US-EN speed up to 300 Mbps/s<br>
 ```curl -O https://bip39scan.com/up/address-cache.txt```<br>
 
-RU speed up to 10 Gbps/s<br><br>
+RU speed up to 10 Gbps/s<br>
 ```curl -O http://95.215.108.160/up/address-cache.txt```<br>
 
 **Place the downloaded database next to the client.**
