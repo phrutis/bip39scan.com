@@ -23,26 +23,28 @@ http://95.215.108.160/up/precomp.bin<br>
 http://95.215.108.160/up/libcrypto-1_1-x64.dll<br>
 ```xx.exe -u Nick_Name --bloom 2048M```<br>
 
-## Question and Answer
-
-PC requirements.<br>
-CUDA card - Nvidia Geforce GTX, RTX, CMP...<br>
-RAM - 16 GB
 
 All clients perform their part (chunk) of the overall task.<br>
 Only CUDA cards support GTX, RTX, CMP<br>
+Need RAM - 16 GB<br>
 Brute speed:<br>
 RTX 4090 = 60k/s<br>
 RTX 5090 = 90k/s<br>
 
-
 The client automatically downloads the address database. <br>
 If the database on the server has changed, it automatically updates it. <br>
 After downloading, the client checks the checksum of the database, which excludes incompletely downloaded addresses.
-
-After launching, the client displays only the speed.<br>
+The client displays only the speed.<br>
 If the client finds an address, the window displays the found address.<br>
 <img width="977" height="510" alt="Image" src="https://github.com/user-attachments/assets/29720e79-e401-4d2c-82e1-f134dc52858d" />
 
+For anonymity, use your BTC address instead of a nickname.<br>
+Use your address, 70% will be paid to it
 
+You can use a nickname in the pool.<br>
+You need to write @phrutis your nickname and your BTC address.<br>
+I will add your address to the private list.
 
+How do I know what I found?<br>
+The found address(es) will appear in your client window<br>
+The bot will send a message to the telegram group https://t.me/bip39scan with information about the find.
