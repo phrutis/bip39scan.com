@@ -53,6 +53,24 @@ xx.exe -u Nick_Name --bloom 2048M
 
 
 ## FAQ :question:
+**It takes me a long time to download Clint (11 GB base), I need a link.**
+
+You can download the database using a direct link
+
+**Linux**<br>
+RU speed up to 2 Gbit/s<br>
+wget http://95.215.108.160/up/address-cache.txt<br>
+US-EN speed up to 500 Mbits/s<br>
+wget http://bip39scan.com/up/address-cache.txt
+
+**Windows**<br>
+cmd<br>
+```curl -O http://95.215.108.160/up/address-cache.txt```<br>
+or<br>
+```curl -O http://bip39scan.com/up/address-cache.txt```<br>
+Place the downloaded database next to the client.
+<hr>
+
 **What does this pool do?**
 
 Collectively brute forces passwords from old wallets created on bip32.org and others.<br>
