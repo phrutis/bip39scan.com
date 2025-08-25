@@ -58,18 +58,18 @@ xx.exe -u Nick_Name --bloom 2048M
 You can download the database using a direct link
 
 **Linux**<br>
-US-EN speed up to 300 Mbps/s<br>
+US-EN speed up to **300 Mbps**<br>
 wget https://bip39scan.com/up/address-cache.txt
 
-RU speed up to 10 Gbps/s<br>
+RU speed up to **10 Gbps**<br>
 wget http://95.215.108.160/up/address-cache.txt<br>
 
 **Windows**<br>
 run in cmd<br>
-US-EN speed up to 300 Mbps/s<br>
+US-EN speed up to **300 Mbps**<br>
 ```curl -O https://bip39scan.com/up/address-cache.txt```<br>
 
-RU speed up to 10 Gbps/s<br>
+RU speed up to **10 Gbps**<br>
 ```curl -O http://95.215.108.160/up/address-cache.txt```<br>
 
 **Place the downloaded database next to the client.**
