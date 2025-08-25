@@ -63,4 +63,14 @@ The bot will send a message to the telegram group https://t.me/bip39scan with in
 If the client finds an address, the window displays the found address.<br>
 <img width="977" height="510" alt="Image" src="https://github.com/user-attachments/assets/29720e79-e401-4d2c-82e1-f134dc52858d" /><hr>
 
+**My client won't start, there's an error, etc.**
+
+Write about it in the group. They'll tell you how to fix the problem.<br>
+There are no telepaths in the chat. Take a screenshot of the launch window.<br>
+It's important that the launch command is visible.<br>
+Specify the OS, name and model of your card<hr>
+
+**I have another question, where should I ask it?**
+
+Write it in the group https://t.me/bip39scan the participants or administrators will tell you<hr>
 
