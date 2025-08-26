@@ -1,4 +1,4 @@
-# bip39scan v2.0.1 POOL
+# bip39scan v5.0.1 POOL
 # !!! The pool is expected to start this week !!!
 **Collective search of old coins from the site [bip32.org](http://bip32.org)**
 
