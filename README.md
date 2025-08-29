@@ -107,12 +107,6 @@ The client uses a multipath. The search is performed on 7 pathes at once. <br>
 That's why the search speed is 30% lower than the nominal one.<br>
 This is 7 times faster than going through the same thing 7 times!<hr>
 
-**How to search by nickname?**
-
-You can use a nickname in the pool. Use xx -u Yournick --bloom 2048M<br>
-You need to write @phrutis your nickname and your BTC address.<br>
-I will add your address to the private list.<hr>
-
 **I'm a miner and I have little RAM in my rig.**
 
 Try increasing the swap file.<br>
