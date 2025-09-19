@@ -62,17 +62,9 @@ Each card searches for its own piece of the main task.<hr>
 **Will this pool work on my pc?**
 
 Only CUDA cards support GTX, RTX, CMP<br>
-Need RAM - 16 GB<br>
 Brute speed:<br>
 RTX 4090 = 50k/s<br>
 RTX 5090 = 80k/s<hr>
-
-**Why does the program require 16 GB of RAM?**
-
-The client automatically downloads the address database 11 GB (binary format). <br>
-The database is loaded into RAM and eats up 12 GB of memory, another 4 GB is needed for the system.<br>
-If the database on the server has changed, it automatically updates it. <br>
-After downloading, the client checks the checksum of the database, which excludes incompletely downloaded addresses.<hr>
 
 **I want to search anonymously, how can I do this?**
 
@@ -84,11 +76,6 @@ Use your address, 70% will be paid to it<hr>
 The client uses a multipath. The search is performed on 7 pathes at once. <br>
 That's why the search speed is 30% lower than the nominal one.<br>
 This is 7 times faster than going through the same thing 7 times!<hr>
-
-**I'm a miner and I have little RAM in my rig.**
-
-Try increasing the swap file.<br>
-Ask in the chat, they will tell you.<hr>
 
 **How do I know what I found?**
 
